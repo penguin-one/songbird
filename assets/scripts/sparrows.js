@@ -199,7 +199,7 @@ function defineTrueAnswer(event) {
     imgBirdFromSection.src = birdsData[1][currentNum]['image'];
     currentElem.classList.add('style__true-answer');
     buttonNext.classList.add('style__btn-next');
-    buttonNext.href = "../../penguin-one/pages/forestbirds.html";
+    buttonNext.href = "../../songbird/pages/forestbirds.html";
     listAudioBird.removeEventListener('click', defineTrueAnswer);
     audioTrue.play();
 

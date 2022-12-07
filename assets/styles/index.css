@@ -1,0 +1,56 @@
+@import url('./reset.css') screen;
+@import url('./styles.css') screen;
+
+/* Homepage styles start */
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../images/background-img.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header,
+.footer {
+  background: rgb(0,137,102,.8);
+  padding: 15px 0;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.main__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(48,48,48,.6);
+  padding: 50px 25px;
+  border-radius: 6px;
+}
+
+.link-hover:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 150px;
+}
+/* Homepage styles end */

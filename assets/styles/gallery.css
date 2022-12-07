@@ -1,0 +1,93 @@
+@import url('./reset.css') screen;
+@import url('./styles.css') screen;
+
+/* Gallery styles start */
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+.footer {
+  background: rgb(0,137,102,.8);
+  padding: 15px 0;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.main__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(48,48,48,.6);
+  padding: 40px 40px;
+}
+
+.link-hover:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 150px;
+}
+
+.main__gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.title__gallery {
+  font-size: 36px;
+  margin-bottom: 60px;
+  font-weight: 600;
+  border-bottom: 1px solid #00bc8c;
+  line-height: 1.6;
+}
+
+.bird__type {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #00bc8c;
+}
+
+.bird__name,
+.bird__species,
+.bird__desc,
+.bird__img{
+  margin-bottom: 20px;
+}
+
+.bird__audio {
+  margin-bottom: 60px;
+}
+
+.bird__name {
+  font-size: 24px;
+}
+
+.bird__img {
+  width: 250px;
+  height: 200px;
+  border: 1px solid var(--color-border);
+}
+/* Gallery styles end */

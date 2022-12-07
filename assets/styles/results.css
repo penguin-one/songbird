@@ -1,0 +1,48 @@
+@import url('./reset.css') screen;
+@import url('./styles.css') screen;
+@import url('./quiz.css') screen;
+
+/* Main styles start */
+
+.text__congratulation {
+  font-size: 52px;
+}
+
+.text__congratulation__desc {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.main__results__section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 20px 100px;
+  background: var(--color-background-for-section);
+  border-radius: 6px;
+  line-height: 1.6;
+}
+
+.end-notification {
+  font-size: 20px;
+}
+
+.link__try-again {
+  display: block;
+  width: 90%;
+  background: #008966;
+  text-align: center;
+  border-radius: 4px;
+  padding: 14px 0;
+  font-size: 18px;
+}
+
+.link__try-again:hover {
+  background: #00bc8c;
+}
+
+.link__try-again:active {
+  background: var(--color-border);
+}
+/* Main styles end */

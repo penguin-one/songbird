@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The quiz</title>
+  <link rel="stylesheet" href="../assets/styles/quiz.css">
+  <script type="module" src="../assets/scripts/scripts.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__wrapper__wrapper">
+        <h1 class="header__logo"><a href="../index.html" title="go to homepage" class="link">Song<span class="logo-chunk">bird</span></a></h1>
+        <div class="header__score">Score: <span class="header__score-value">0</span></div>
+      </div>
+      <div class="header__wrapper__wrapper">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list__item nav__list__item-active"><a href="#!" class="link nav__list__item-link">Разминка</a></li>
+            <li class="nav__list__item"><a href="#!" class="link nav__list__item-link">Воробьиные</a></li>
+            <li class="nav__list__item"><a href="#!" class="link nav__list__item-link">Лесные птицы</a></li>
+            <li class="nav__list__item"><a href="#!" class="link nav__list__item-link">Певчие птицы</a></li>
+            <li class="nav__list__item"><a href="#!" class="link nav__list__item-link">Хищные птицы</a></li>
+            <li class="nav__list__item"><a href="#!" class="link nav__list__item-link">Морские птицы</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__wrapper">
+      <section class="main__bird__section">
+        <img src="../assets/images/img-bird-default.jpg" alt="an image of a bird" class="main__bird-img">
+        <div class="main__bird__section-add">
+          <p class="main__bird-name">******</p>
+          <hr class="hr">
+          <div class="main__bird-audio">
+          </div>
+        </div>
+      </section>
+
+      <section class="section__wrapper">
+        <section class="main__bird__section-list">
+          <ul class="list__bird-audio">
+            <li class="list__bird-audio__item" data-num="0">Ворон</li>
+            <li class="list__bird-audio__item" data-num="1">Журавль</li>
+            <li class="list__bird-audio__item" data-num="2">Ласточка</li>
+            <li class="list__bird-audio__item" data-num="3">Козодой</li>
+            <li class="list__bird-audio__item" data-num="4">Кукушка</li>
+            <li class="list__bird-audio__item" data-num="5">Синица</li>
+          </ul>
+        </section>
+
+        <section class="main__bird__section section__bird__desc">
+          <p class="main__bird__section__audio-desc">
+            Послушайте плеер.<br>
+            Выберите птицу из списка
+          </p>
+        </section>
+      </section>
+
+      <a href="#!" class="button">Next Level</a>
+
+    </div>
+  </main>
+</body>
+</html>
